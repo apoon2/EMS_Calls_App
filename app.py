@@ -59,7 +59,7 @@ Incidences = st.sidebar.slider('Traffic Incidents',0,53) #get actual range for t
 params = [[year, month, day, hour, PRCP, SNOW, SNWD, TAVG_CALC, Incidences]]
 
 # import  model
-with open('../modeling/app-model.pkl', mode='rb') as pickle_in:
+with open('app-model.pkl', mode='rb') as pickle_in:
     model = pickle.load(pickle_in)
 
 # make prediction
