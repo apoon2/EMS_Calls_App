@@ -16,7 +16,6 @@ While these features are beyond our control, the goal of this project is to incr
 
 | folder | file | notes |
 |---|---|---|
-| | | |
 | Main Directory | README.md | (current file) |
 | Modeling       | linreg_ensemble_models.ipynb  | lin. regression + RF              |
 |                | app-model.pkl | The model saved for use in the StreamLit app      |            
@@ -77,7 +76,5 @@ This data contains traffic incidents in New York from 2010 to 2016. We removed a
 |                        |            | from sklearn.preprocessing import StandardScaler, PolynomialFeatures              |
 |                        |            | from sklearn.metrics import r2_score, mean_squared_error                          |
 |                        |            | from sklearn.pipeline import Pipeline                                             |
-|                        | tensorflow | from tensorflow.keras.models import Sequential                                    |
-|                        |            | from tensorflow.keras.layers import Dense, Input                                  |
 
 
