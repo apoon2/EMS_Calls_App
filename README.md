@@ -16,7 +16,6 @@ While these features are beyond our control, the goal of this project is to incr
 
 | folder | file | notes |
 |---|---|---|
-| | | |
 | Main Directory | README.md | (current file) |
 | Modeling       | linreg_ensemble_models.ipynb  | lin. regression + RF              |
 |                | app-model.pkl | The model saved for use in the StreamLit app      |            
