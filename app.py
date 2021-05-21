@@ -18,12 +18,12 @@ We first combined data from these three different sources to get our training da
 | Month                     | Month of the year (1-12)                      |
 | Day                       | Day of the month (1-31)                       |
 | Hour                      | Hour of the day (0-23)                        |
-| Precipitation             | Precipitation by intensity (1-3 : L,M,H)      |
+| Precipitation             | Precipitation by intensity (0-2 : L,M,H)      |
 | Snow Depth                | Snow depth on ground in inches                |
 | Temp (F)                  | Temperature in Fahrenheit                     |
 | Traffic Incidents         | Number of traffic incidents within the hour   |
 
-### Results:
+### Model & Results:
 The best performing model used here was a random forest with a max_depth of 5 and n_estimators of 250. The model had train and test r2 scores of 0.81 and a RMSE of 24 calls. Overall, this model had a relatively high score with no overfitting.
 
 ### For More Details:
