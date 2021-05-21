@@ -6,13 +6,12 @@ st.title('NYC Emergency Call Volume Estimator')
 
 # About Section
 st.write('''Can we predict emergency call volume in NYC using time, weather, and traffic data? While these features are beyond our control, the goal of this project is to increase preparedness for a surge in emergency services given specific conditions. Using predictive modeling, we hope to be able to provide an indication of when the city should increase staff in emergency call centers or even on response teams.
-
-### Datasets:
-We first combined data from three different sources: EMS calls, daily weather, traffic incidents.
-[EMS](https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj) | [Weather](https://www.ncdc.noaa.gov/cdo-web/search) | [Traffic](https://data.ny.gov/Transportation/511-NY-Events-Beginning-2010/ah74-pg4w)
 ___
+### Datasets:
+[EMS](https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj) | [Weather](https://www.ncdc.noaa.gov/cdo-web/search) | [Traffic](https://data.ny.gov/Transportation/511-NY-Events-Beginning-2010/ah74-pg4w)
+We first combined data from three different sources: EMS calls, daily weather, traffic incidents.
+
 ### Data Dictionary:
-These were the final features used in modeling.
 | Feature                   | Notes                                         |
 | ---                       | ---                                           |
 | Month                     | Month of the year (1-12)                      |
@@ -22,12 +21,12 @@ These were the final features used in modeling.
 | Snow Depth                | Snow depth on ground in inches                |
 | Temp (F)                  | Temperature in Fahrenheit                     |
 | Incidences                | Number of traffic incidents within the hour   |
-___
+These were the final features used in modeling.
 
 ### Results:
 The best performing model used here was a random forest with a max_depth of 5 and n_estimators of 250. The model had train and test r2 scores of 0.81 and a RMSE of 24 calls. Overall, this model had a relatively high score with no overfitting.
 
-### For More Ðetails:
+### For More Details:
 [Github](https://github.com/dsi-group1/nyc-emergency-call-volume)
 
 ### Contributors:
