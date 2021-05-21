@@ -23,8 +23,6 @@ We first combined data from these three different sources to get our training da
 | Temp (F)                  | Temperature in Fahrenheit                     |
 | Traffic Incidents         | Number of traffic incidents within the hour   |
 
-These were the final features used in modeling.
-
 ### Results:
 The best performing model used here was a random forest with a max_depth of 5 and n_estimators of 250. The model had train and test r2 scores of 0.81 and a RMSE of 24 calls. Overall, this model had a relatively high score with no overfitting.
 
